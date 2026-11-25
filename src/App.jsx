@@ -1,0 +1,2 @@
+import React,{useState} from 'react';import AboutUs from './AboutUs.jsx';import ProductList from './ProductList.jsx';import CartItem from './CartItem.jsx';import './App.css';
+export default function App(){const [page,setPage]=useState('home');return page==='home'?<main className="landing"><div><h1>Paradise Nursery</h1><p>Bring nature home.</p><button onClick={()=>setPage('plants')}>Get Started</button><AboutUs/></div></main>:page==='plants'?<ProductList navigate={setPage}/>:<CartItem navigate={setPage}/>;}
