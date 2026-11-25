@@ -1,0 +1,2 @@
+import React from 'react';
+export default function AboutUs(){return <section><h2>About Paradise Nursery</h2><p>Paradise Nursery brings nature into your home with a carefully selected range of healthy houseplants. Our mission is to make indoor gardening accessible, with plants for every space and experience level.</p></section>}
